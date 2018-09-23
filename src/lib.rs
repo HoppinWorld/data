@@ -12,7 +12,6 @@ pub struct PlayerStats {
 	pub jumps: u32,
 	pub strafes: u32,
 	pub playcount: u32,
-
 }
 
 /// Number for keys is amount [0,1] (controller)
@@ -66,4 +65,5 @@ pub struct MapInfo {
     pub categories: Vec<MapCategory>,
     pub difficulty: MapDifficulty,
     pub tags: Vec<String>,
+    pub segment_count: u8,
 }
